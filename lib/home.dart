@@ -173,7 +173,7 @@ class _HomeState extends State<Home> {
                               SizedBox(height: 20),
                               _output != null
                                   ? Text(
-                                      '${_output[0]}',
+                                      'Detect: {${_output[0].toString().substring(37)} ',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         color: Colors.black,
